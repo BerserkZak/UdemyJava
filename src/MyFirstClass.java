@@ -6,8 +6,16 @@ public class MyFirstClass {
 
 
 
+    //PerfectNumber
+/*    public static boolean isPerfectNumber(int number) {
+        int sumOfProperDivisors = 0;
 
+        for (int i = 1;i < number;i++)
+            if (number % i == 0)
+                sumOfProperDivisors += i;
 
+        return sumOfProperDivisors == number && number > 1;
+    }*/
     //Greatest Common Divisor
 /*    public static int getGreatestCommonDivisor(int first, int second) {
         if (first < 10 || second < 10) {
