@@ -2,14 +2,33 @@ public class MyFirstClass {
 
     public static void main(String[] args) {
 
-
-
     }
 
 
+    //Largest Prime
+/*    public static int getLargestPrime(int number) {
+        if (number <= 1 ) {
+            return -1;
+        }
 
+        int largestPrime = 0;
+        int largestPrimeTemp = 0;
+        for (int x = 2; x <= (number/2); x++) {
+            if (number%x == 0) {
+                largestPrimeTemp=getLargestPrime(x);
+                if (largestPrimeTemp <= x) {
+                    largestPrime = largestPrimeTemp;
+                } else {
+                    largestPrime = x;
+                }
+            }
+        }
 
-
+        if (largestPrime == 0) {
+            largestPrime = number;
+        }
+        return largestPrime;
+    }*/
     //Flour Pack Problem
 /*    public static boolean canPack(int  bigCount, int smallCount, int goal) {
         int totalBigCount = bigCount*5;
