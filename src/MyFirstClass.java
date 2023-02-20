@@ -2,8 +2,41 @@ public class MyFirstClass {
 
     public static void main(String[] args) {
 
+
+
     }
 
+
+
+
+
+    //Flour Pack Problem
+/*    public static boolean canPack(int  bigCount, int smallCount, int goal) {
+        int totalBigCount = bigCount*5;
+        int totalPacksCount = totalBigCount + smallCount;
+
+        if (totalPacksCount == goal) {
+            return true;
+        }
+
+        if (((bigCount < 0) || (smallCount < 0) || (goal < 0)) || goal == 0) {
+            return false;
+        }
+
+        if (goal < 5 && smallCount < goal) {
+            return false;
+        }
+
+        if (totalPacksCount >= goal) {
+            if (goal%5 == 0) {
+                return true;
+            } else if ((smallCount >= goal) || (smallCount >= goal%5)) {
+                return true;
+            }
+            return false;
+        }
+        return false;
+    }*/
     //NumberToWords
 /*    public static void numberToWords(int number) {
         if (number < 0) {
@@ -48,7 +81,6 @@ public class MyFirstClass {
             }
         return digitCount;
     }*/
-
     //PerfectNumber
 /*    public static boolean isPerfectNumber(int number) {
         int sumOfProperDivisors = 0;
