@@ -4,6 +4,36 @@ public class MyFirstClass {
 
     }
 
+
+
+    //MinMax
+/*    public static void inputMinMax() {
+        Scanner userInput = new Scanner(System.in);
+        boolean isChar = false;
+        int maxNumber = 0;
+        int minNumber = 0;
+
+        do {
+            System.out.println("Enter a number or any char to quit the loop");
+            String number = userInput.nextLine();
+
+            try {
+                int numberToCheck = Integer.parseInt(number);
+                if (numberToCheck >= maxNumber) {
+                    maxNumber = numberToCheck;
+                } else if (numberToCheck < minNumber || minNumber == 0) {
+                    minNumber = numberToCheck;
+                }
+
+            } catch (NumberFormatException nfe) {
+                isChar = true;
+            }
+
+        } while (!isChar);
+        System.out.println("Min: " + minNumber + " Max: " + maxNumber);
+
+    }*/
+
     //UserInput
 /*
     public static void numberInput() {
@@ -26,13 +56,6 @@ public class MyFirstClass {
         System.out.println(sum);
     }
 */
-
-
-
-
-
-
-
     //Diagonal Star
 /*    public static void printSquareStar(int number) {
         if (number < 5) {
@@ -254,9 +277,5 @@ public class MyFirstClass {
             return false;
         } return true;
     }*/
-
-
-
-
 
 }
