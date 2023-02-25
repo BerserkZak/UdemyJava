@@ -5,7 +5,31 @@ public class MyFirstClass {
     }
 
 
+    //InputCalculator
+/*
+    public static void inputThenPrintSumAndAverage() {
+        Scanner userInput = new Scanner(System.in);
+        boolean isChar = false;
+        double count = 0;
+        int sum = 0;
+        double avg = 0;
 
+        do {
+            String number = userInput.nextLine();
+
+            try {
+                int numberToCheck = Integer.parseInt(number);
+                count++;
+                sum += numberToCheck;
+                avg = sum/count;
+            } catch (NumberFormatException nfe) {
+                isChar = true;
+            }
+
+        } while (!isChar);
+        System.out.println("SUM = " + sum + " AVG = " + Math.round(avg));
+    }
+*/
     //MinMax
 /*    public static void inputMinMax() {
         Scanner userInput = new Scanner(System.in);
@@ -33,7 +57,6 @@ public class MyFirstClass {
         System.out.println("Min: " + minNumber + " Max: " + maxNumber);
 
     }*/
-
     //UserInput
 /*
     public static void numberInput() {
