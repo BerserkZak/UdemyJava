@@ -4,6 +4,31 @@ public class MyFirstClass {
 
     }
 
+    //UserInput
+/*
+    public static void numberInput() {
+        Scanner userNumberInput = new Scanner(System.in);
+
+        int counter = 1;
+        int sum = 0;
+
+        while (counter <= 5) {
+            System.out.println("Enter number #" + counter + ":");
+            String userNumber = userNumberInput.nextLine();
+            try {
+                int number = Integer.parseInt(userNumber);
+                counter++;
+                sum += number;
+            } catch (NumberFormatException nfe) {
+                System.out.println("Invalid number");
+            }
+        }
+        System.out.println(sum);
+    }
+*/
+
+
+
 
 
 
