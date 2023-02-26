@@ -46,14 +46,14 @@ public class BankAccount {
     }
 
     public void depositFunds(int moneyToDeposit) {
-        accountBalance = getAccountBalance() + moneyToDeposit;
+       setAccountBalance(getAccountBalance() + moneyToDeposit);
     }
 
-    public int withdrawFunds(int moneyToWithdraw) {
+    public void withdrawFunds(int moneyToWithdraw) {
         if ( moneyToWithdraw > getAccountBalance()) {
             System.out.println("Insufficient funds");
-            return -1;
-        } return accountBalance = getAccountBalance() - moneyToWithdraw;
+            return;
+        } setAccountBalance(getAccountBalance() - moneyToWithdraw);
     }
 
 }
