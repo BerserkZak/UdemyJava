@@ -2,6 +2,14 @@ public class MainClass {
 
     public static void main(String[] args) {
 
+        BankAccount steveAccount = new BankAccount("1", 400, "Steve Mojang","stevemoj@mail.ru",
+                "89999999999");
+        System.out.println(steveAccount.getAccountNumber());
+        System.out.println(steveAccount.getAccountBalance());
+        System.out.println(steveAccount.getCustomerName());
+        System.out.println(steveAccount.getEmail());
+        System.out.println(steveAccount.getPhoneNumber());
+
     }
 
 

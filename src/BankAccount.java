@@ -1,23 +1,38 @@
 public class BankAccount {
-    private int accountNumber;
-    private int accountBalance;
+    private String accountNumber;
+    private double accountBalance;
     private String customerName;
     private String email;
-    private int phoneNumber;
+    private String phoneNumber;
 
-    public int getAccountNumber() {
+    public BankAccount() {
+        System.out.println("Empty constructor called");
+    }
+
+    public BankAccount(String accountNumber, double accountBalance, String customerName,
+                       String customerEmail, String customerPhoneNumber) {
+        System.out.println("Account constructor with parameters called");
+        this.accountNumber = accountNumber;
+        this.accountBalance = accountBalance;
+        this.customerName = customerName;
+        email = customerEmail;
+        phoneNumber = customerPhoneNumber;
+
+    }
+
+    public String getAccountNumber() {
         return accountNumber;
     }
 
-    public void setAccountNumber(int accountNumber) {
+    public void setAccountNumber(String accountNumber) {
         this.accountNumber = accountNumber;
     }
 
-    public int getAccountBalance() {
+    public double getAccountBalance() {
         return accountBalance;
     }
 
-    public void setAccountBalance(int accountBalance) {
+    public void setAccountBalance(double accountBalance) {
         this.accountBalance = accountBalance;
     }
 
@@ -37,19 +52,19 @@ public class BankAccount {
         this.email = email;
     }
 
-    public int getPhoneNumber() {
+    public String getPhoneNumber() {
         return phoneNumber;
     }
 
-    public void setPhoneNumber(int phoneNumber) {
+    public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
 
-    public void depositFunds(int moneyToDeposit) {
+    public void depositFunds(double moneyToDeposit) {
        setAccountBalance(getAccountBalance() + moneyToDeposit);
     }
 
-    public void withdrawFunds(int moneyToWithdraw) {
+    public void withdrawFunds(double moneyToWithdraw) {
         if ( moneyToWithdraw > getAccountBalance()) {
             System.out.println("Insufficient funds");
             return;
