@@ -2,12 +2,23 @@ public class MyFirstClass {
 
     public static void main(String[] args) {
 
-        Car car = new Car();
-        car.describeCar();
+
 
     }
 
-
+    //BankChallenge
+/*
+    public static void banking() {
+        BankAccount bank = new BankAccount();
+        bank.setAccountBalance(1000);
+        bank.withdrawFunds(500);
+        bank.depositFunds(200);
+        bank.withdrawFunds(100);
+        bank.depositFunds(600);
+        bank.withdrawFunds(4000);
+        System.out.println(bank.getAccountBalance());
+    }
+*/
 
     //Painter
 /*    public static int getBucketCount(double width, double height, double areaPerBucket, int extraBuckets) {
