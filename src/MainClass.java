@@ -3,6 +3,31 @@ public class MainClass {
     public static void main(String[] args) {
 
 
+    }
+
+
+
+
+
+
+
+    //POJO and Record Lesson
+/*    public static void StudentLoop() {
+        for (int i = 1; i <= 5; i++) {
+            LPAStudent s = new LPAStudent("5900" + i,
+                    switch (i) {
+                    case 1 -> "Mary";
+                    case 2 -> "Sancho";
+                    case 3 -> "Pego";
+                    case 4 -> "Tune";
+                    case 5 -> "Mira";
+                    default -> "Anon";
+                    },
+                    "05/11/1998",
+                    "Java class");
+            System.out.println(s);
+        }
+    }*/
 //        BankAccount steveAccount = new BankAccount("1", 400, "Steve Mojang","stevemoj@mail.ru",
 //                "89999999999");
 //        System.out.println(steveAccount.getAccountNumber());
@@ -13,16 +38,10 @@ public class MainClass {
 //        BankAccount steveAccount = new BankAccount();
 //        BankAccount timsAccount = new BankAccount("Tim Buche", "me@email.com", "(999) 434-34-34");
 //        System.out.println("Acc #: " + timsAccount.getAccountNumber());
-
-        Customer steve = new Customer("Steve", "steve@mail.com");
-        System.out.println(steve.getCreditLimit());
-        steve = new Customer();
-        System.out.println(steve.getEmailAdress());
-
-    }
-
-
-
+//        Customer steve = new Customer("Steve", "steve@mail.com");
+//        System.out.println(steve.getCreditLimit());
+//        steve = new Customer();
+//        System.out.println(steve.getEmailAddress());
 
 
 
