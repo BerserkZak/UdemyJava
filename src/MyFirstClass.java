@@ -2,6 +2,9 @@ public class MyFirstClass {
 
     public static void main(String[] args) {
 
+        Car car = new Car();
+        car.describeCar();
+
     }
 
 
@@ -28,7 +31,6 @@ public class MyFirstClass {
         double areaTotal = Math.ceil(area / areaPerBucket);
         return (int) areaTotal;
     }*/
-
     //InputCalculator
 /*
     public static void inputThenPrintSumAndAverage() {
