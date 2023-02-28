@@ -1,3 +1,5 @@
+package BeforeOOP;
+
 public class Carpet {
     private double cost;
 

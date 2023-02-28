@@ -1,3 +1,5 @@
+package BeforeOOP;
+
 public class Calculator {
     private double firstNumber;
     private double secondNumber;

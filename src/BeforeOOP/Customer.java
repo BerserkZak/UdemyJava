@@ -1,3 +1,5 @@
+package BeforeOOP;
+
 public class Customer {
     private String name;
     private String emailAddress;

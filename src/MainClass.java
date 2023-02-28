@@ -2,19 +2,34 @@ public class MainClass {
 
     public static void main(String[] args) {
 
+        Animal animal = new Animal("Generic Animal", "Huge", 400);
+        doAnimalStaff(animal, "slow");
+
+        Dog dog = new Dog();
+        doAnimalStaff(dog, "fast");
+
+        Dog yorkie = new Dog("Yorkey", 15);
+        doAnimalStaff(yorkie, "fast");
+        Dog retriever = new Dog("Retriever", 150, "Floppy", "Fluffy");
+        doAnimalStaff(retriever, "fast");
+
 
     }
 
+    public static void doAnimalStaff(Animal animal, String speed) {
 
+        animal.makeNoise();
+        animal.move(speed);
+        System.out.println(animal);
+        System.out.println("_ _ _ _ _");
 
-
-
+    }
 
 
     //POJO and Record Lesson
 /*    public static void StudentLoop() {
         for (int i = 1; i <= 5; i++) {
-            LPAStudent s = new LPAStudent("5900" + i,
+            BeforeOOP.LPAStudent s = new BeforeOOP.LPAStudent("5900" + i,
                     switch (i) {
                     case 1 -> "Mary";
                     case 2 -> "Sancho";
@@ -28,19 +43,19 @@ public class MainClass {
             System.out.println(s);
         }
     }*/
-//        BankAccount steveAccount = new BankAccount("1", 400, "Steve Mojang","stevemoj@mail.ru",
+//        BeforeOOP.BankAccount steveAccount = new BeforeOOP.BankAccount("1", 400, "Steve Mojang","stevemoj@mail.ru",
 //                "89999999999");
 //        System.out.println(steveAccount.getAccountNumber());
 //        System.out.println(steveAccount.getAccountBalance());
 //        System.out.println(steveAccount.getCustomerName());
 //        System.out.println(steveAccount.getEmail());
 //        System.out.println(steveAccount.getPhoneNumber());
-//        BankAccount steveAccount = new BankAccount();
-//        BankAccount timsAccount = new BankAccount("Tim Buche", "me@email.com", "(999) 434-34-34");
+//        BeforeOOP.BankAccount steveAccount = new BeforeOOP.BankAccount();
+//        BeforeOOP.BankAccount timsAccount = new BeforeOOP.BankAccount("Tim Buche", "me@email.com", "(999) 434-34-34");
 //        System.out.println("Acc #: " + timsAccount.getAccountNumber());
-//        Customer steve = new Customer("Steve", "steve@mail.com");
+//        BeforeOOP.Customer steve = new BeforeOOP.Customer("Steve", "steve@mail.com");
 //        System.out.println(steve.getCreditLimit());
-//        steve = new Customer();
+//        steve = new BeforeOOP.Customer();
 //        System.out.println(steve.getEmailAddress());
 
 
@@ -49,7 +64,7 @@ public class MainClass {
     //PersonChallenge
 /*
     public static void Persons() {
-        Person person = new Person();
+        BeforeOOP.Person person = new BeforeOOP.Person();
         person.setFirstName("");   // firstName is set to empty string
         person.setLastName("");    // lastName is set to empty string
         person.setAge(10);
@@ -63,10 +78,10 @@ public class MainClass {
         System.out.println("fullName= " + person.getFullName());
     }
 */
-    //Calculator
+    //BeforeOOP.Calculator
 /*
-    public static void Calculator() {
-        Calculator calculator = new Calculator();
+    public static void BeforeOOP.Calculator() {
+        BeforeOOP.Calculator calculator = new BeforeOOP.Calculator();
         calculator.setFirstNumber(5.0);
         calculator.setSecondNumber(4);
         System.out.println("add= " + calculator.getAdditionResult());
@@ -80,7 +95,7 @@ public class MainClass {
     //BankChallenge
 /*
     public static void banking() {
-        BankAccount bank = new BankAccount();
+        BeforeOOP.BankAccount bank = new BeforeOOP.BankAccount();
         bank.setAccountBalance(1000);
         bank.withdrawFunds(500);
         bank.depositFunds(200);

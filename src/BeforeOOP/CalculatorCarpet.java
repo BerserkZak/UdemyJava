@@ -1,3 +1,5 @@
+package BeforeOOP;
+
 public class CalculatorCarpet {
     private Floor floor;
     private Carpet carpet;
