@@ -11,7 +11,13 @@ public class MainClass {
         Dog yorkie = new Dog("Yorkey", 15);
         doAnimalStaff(yorkie, "fast");
         Dog retriever = new Dog("Retriever", 150, "Floppy", "Fluffy");
-        doAnimalStaff(retriever, "fast");
+        doAnimalStaff(retriever, "slow");
+
+        Dog wolf = new Dog("wolf", 40);
+        doAnimalStaff(wolf, "slow");
+
+        Fish goldie = new Fish("Goldfish", 0.25, 2, 3);
+        doAnimalStaff(goldie, "fast");
 
 
     }
