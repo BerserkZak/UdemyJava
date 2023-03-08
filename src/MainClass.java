@@ -2,6 +2,33 @@ public class MainClass {
 
     public static void main(String[] args) {
 
+
+
+
+    }
+
+
+
+
+
+
+    //TextBlock
+/*
+    public void TextBlock() {
+        String name = "Steve";
+        int health = 20;
+
+        String bulletin = "Info: \n" +
+                "\t• Name: " + name + "\n" +
+                "\t\t• Health: " + health + "\n";
+
+        System.out.println(bulletin);
+
+    }
+*/
+    //AnimalOOPMain
+/*
+    public void AnimalOOP() {
         Animal animal = new Animal("Generic Animal", "Huge", 400);
         doAnimalStaff(animal, "slow");
 
@@ -18,20 +45,17 @@ public class MainClass {
 
         Fish goldie = new Fish("Goldfish", 0.25, 2, 3);
         doAnimalStaff(goldie, "fast");
-
-
     }
-
-    public static void doAnimalStaff(Animal animal, String speed) {
+*/
+    //AnimalOOP
+/*    public static void doAnimalStaff(Animal animal, String speed) {
 
         animal.makeNoise();
         animal.move(speed);
         System.out.println(animal);
         System.out.println("_ _ _ _ _");
 
-    }
-
-
+ */   }
     //POJO and Record Lesson
 /*    public static void StudentLoop() {
         for (int i = 1; i <= 5; i++) {
@@ -428,5 +452,3 @@ public class MainClass {
             return false;
         } return true;
     }*/
-
-}
