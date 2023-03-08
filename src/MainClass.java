@@ -1,11 +1,13 @@
 public class MainClass {
 
     public static void main(String[] args) {
-        StringTests("Collusion Earth");
+
+
     }
 
 
     //AllAboutStrings
+/*
     public static void StringTests(String string) {
         int length = string.length();
         System.out.printf("The leght is %d %n", length);
@@ -32,6 +34,7 @@ public class MainClass {
 
 
     }
+*/
 
 
 
