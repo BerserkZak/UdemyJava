@@ -1,20 +1,43 @@
 public class MainClass {
 
     public static void main(String[] args) {
+        StringTests("Collusion Earth");
+    }
 
 
+    //AllAboutStrings
+    public static void StringTests(String string) {
+        int length = string.length();
+        System.out.printf("The leght is %d %n", length);
+        System.out.printf("The leght is %c %n", string.charAt(0));
+        System.out.printf("The leght is %c %n", string.charAt(length - 1));
+        System.out.printf("Index of char i is %d %n", string.indexOf("i"));
+        System.out.printf("Index of char l is %d %n", string.indexOf("l", 3));
+        String matchString = string.toLowerCase();
+        if (string.equals(matchString)) {
+            System.out.println("Equals");
+        }
+        if (string.equalsIgnoreCase(matchString)) {
+            System.out.println("Equals ignore case");
+        }
+        if (string.startsWith("Collusion")) {
+            System.out.println("Start with Collusion");
+        }
+        if (string.endsWith("Earth")) {
+            System.out.println("Ends with Earth");
+        }
+        if (string.contentEquals("Collusion Earth")) {
+            System.out.println("Equals to Collusion Earth");
+        }
 
 
     }
 
 
 
-
-
-
     //TextBlock
 /*
-    public void TextBlock() {
+    public static void TextBlock() {
         String name = "Steve";
         int health = 20;
 
@@ -24,6 +47,18 @@ public class MainClass {
 
         System.out.println(bulletin);
 
+        int age = 35;
+        System.out.printf("Your age is %d\n", age);
+
+        for (int i = 1; i <= 1000000; i *= 10) {
+            System.out.printf("Number %7d %n", i);
+        }
+
+        String formattedString = String.format("Age is %d!", age);
+        System.out.println(formattedString);
+
+        formattedString = "Age is %d".formatted(age);
+        System.out.println(formattedString);
     }
 */
     //AnimalOOPMain
