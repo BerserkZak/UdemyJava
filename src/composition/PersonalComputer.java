@@ -1,11 +1,12 @@
-package Composition;
+package composition;
 
 public class PersonalComputer extends Product{
     private Monitor monitor;
     private ComputerCase computerCase;
     private Motherboard motherboard;
 
-    public PersonalComputer(String model, String manufacturer, Monitor monitor, ComputerCase computerCase, Motherboard motherboard) {
+    public PersonalComputer(String model, String manufacturer, Monitor monitor,
+                            ComputerCase computerCase, Motherboard motherboard) {
         super(model, manufacturer);
         this.monitor = monitor;
         this.computerCase = computerCase;

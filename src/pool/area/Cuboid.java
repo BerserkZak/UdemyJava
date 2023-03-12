@@ -1,4 +1,4 @@
-package PoolAreaChallenge;
+package pool.area;
 
 public class Cuboid extends Rectangle{
     private double height;

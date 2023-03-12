@@ -1,4 +1,4 @@
-package PoolAreaChallenge;
+package pool.area;
 
 public class Rectangle {
     private double width, length;

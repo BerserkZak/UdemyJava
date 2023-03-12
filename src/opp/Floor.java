@@ -1,4 +1,4 @@
-package BeforeOOP;
+package opp;
 
 public class Floor {
     private double width;

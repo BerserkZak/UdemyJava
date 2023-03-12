@@ -1,4 +1,4 @@
-package BeforeOOP;
+package opp;
 
 public class ComplexNumber {
     private double real;
