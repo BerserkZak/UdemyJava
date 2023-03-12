@@ -6,6 +6,7 @@ public class MainClass {
     }
 
 
+
     //AllAboutStrings
 /*
     public static void StringTests(String string) {
@@ -35,9 +36,6 @@ public class MainClass {
 
     }
 */
-
-
-
     //TextBlock
 /*
     public static void TextBlock() {
